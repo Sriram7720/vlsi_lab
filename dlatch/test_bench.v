@@ -5,8 +5,6 @@ module test;
   
   initial 
     begin
-      $dumpfile("dump.vcd"); 
-      $dumpvars;
       d = 0;
       en = 0;
       rst = 0;
